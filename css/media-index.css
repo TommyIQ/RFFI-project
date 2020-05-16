@@ -31,6 +31,10 @@
     left: 0;
   }
 
+  .header__menu-item:last-child {
+    margin: 10px 0;
+  }
+
   .header__menu-item {
     margin: 10px 0;
   }
