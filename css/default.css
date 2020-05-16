@@ -1,0 +1,47 @@
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables */
+:root {
+  --link-color: #8D8D8D;
+  --link-color-active: #DFDFDF;
+  --slider-block-color: #232428;
+  --author-color: #E0E0E0;
+  --box-shadow-color: rgba(138, 138, 138, 0.5);
+  --additional-color: #3499DB;
+  --card-minor-color: #747474;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-top: 80px;
+}
+
+.section__title {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.section__parag {
+  line-height: 180%;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.box-shadow {
+  box-shadow: 0 0 5px 0 var(--box-shadow-color);
+}
