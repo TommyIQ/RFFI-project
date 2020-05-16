@@ -202,7 +202,7 @@
 
 .research__span {
   font-size: 12px;
-  color: var(--card-minor-color);
+  color: var(--minor-text-color);
 }
 
 .research__span-colored {
@@ -227,11 +227,123 @@
   margin-right: 10px;
 }
 
-.research__link {
-  font-size: 10px;
-  border-radius: 5px;
-  padding: 7px 15px;
-  text-decoration: none;
+
+.research__bottom {
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+/* contributors */
+.contributors__content {
+  margin-top: 40px;
+}
+
+.contributors__member {
   color: #fff;
-  background: var(--additional-color);
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 270px;
+  height: 100%;
+  min-height: 400px;
+}
+
+.contributors__member::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contributors__member-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contributors__member-content {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  bottom: 0;
+  left: 0;
+}
+
+.contributors__member-name {
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  font-weight: 500;
+}
+
+.contributors__member-position {
+  font-size: 12px;
+}
+
+.contributors__member-position::after {
+  content: "";
+  display: block;
+  margin-top: 7px;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+}
+
+
+/* footer */
+.footer {
+  padding: 30px 0;
+  width: 100%;
+  color: #fff;
+  background: var(--footer-color);
+}
+
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.footer__element {
+  text-align: center;
+  flex-basis: 220px;
+}
+
+.footer__title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__text {
+  color: var(--minor-text-color);
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.footer__rights {
+  text-align: center;
+}
+
+.footer__rights-span {
+  font-size: 14px;
+  color: var(--minor-text-color);
 }
