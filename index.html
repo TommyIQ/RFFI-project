@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Главная Страница</title>
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <link rel="stylesheet" href="./css/default.css">
   <link rel="stylesheet" href="./css/index.css">
@@ -17,6 +19,7 @@
   <link rel="stylesheet" href="./libs/glide-3.4.1/css/glide.theme.css">
 
 </head>
+
 <body>
 
   <!-- header -->
@@ -29,7 +32,7 @@
         </div>
 
         <menu class="header__menu">
-          
+
           <li class="header__menu-item">
             <a href="#" class="header__menu-link">Главная</a>
           </li>
@@ -39,7 +42,7 @@
           </li>
 
           <li class="header__menu-item">
-            <a href="#" class="header__menu-link">Исследование</a>
+            <a href="#" class="header__menu-link">Исследования</a>
           </li>
 
           <li class="header__menu-item">
@@ -62,193 +65,346 @@
     </div>
   </header>
 
-    <!-- slider -->
-    <section class="slider">
 
-      <div class="glide">
-        <div class="glide__track" data-glide-el="track">
-          <div class="glide__slides slider__slides">
+  <!-- slider -->
+  <section class="slider">
 
-
-            <div class="glide__slide slider__slide">
-              <img class="slide__img" src="./img/img.png" alt="img">
-
-              <div class="container">
-                <div class="slide__content">
-                  <p class="slide__parag">
-                    Каждая задача, которую я решал становилась правилом, служившим для решения других задач. 
-                  </p>
-                  <span class="slide__author">Рене Декарт</span>
-                  
-                  <div class="slide__background"></div>
-                </div>
-              </div>
-
-            </div>
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides slider__slides">
 
 
-            <div class="glide__slide slider__slide">
-              <img class="slide__img" src="./img/img1.png" alt="img">
+          <div class="glide__slide slider__slide">
+            <img class="slide__img" src="./img/img.png" alt="img">
 
-              <div class="container">
-                <div class="slide__content">
-                  <p class="slide__parag">
-                    Каждая задача, которую я решал становилась правилом, служившим для решения других задач. 
-                  </p>
-                  <span class="slide__author">Рене Декарт</span>
-
-                  <div class="slide__background"></div>
-                </div>
-              </div>
-
-            </div>
-
-
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="glide__bullets" data-glide-el="controls[nav]">
-            <button class="glide__bullet" data-glide-dir="=0"></button>
-            <button class="glide__bullet" data-glide-dir="=1"></button>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- about -->
-    <section class="section about">
-      <div class="container">
-        <h3 class="section__title">Чем мы занимаемся?</h3>
-        <p class="section__parag">
-          Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.
-        </p>
-      </div>
-    </section>
-
-
-    <!-- Researches -->
-    <section class="section research">
-      <div class="container">
-        <h3 class="section__title">Исследования</h3>
-        <p class="section__parag">
-          Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это не гениально, не правильно, используется даже не понятный латинский.
-        </p>
-
-        <div class="research__content">
-
-          <div class="research__card box-shadow">
-
-            <div class="research__left">
-              <img class="research__img" src="./img/img.png" alt="">
-            </div>
-
-            <div class="research__right">
-              <h4 class="research__title">Переход к электрокинетической нестабильности вблизи несовершенных зарядоселективных мембран</h4>
-
-              <div class="research__block">
-                <span class="research__span research__span-colored">Авторы:</span>
-                <span class="research__span">Е. А. Демехин, Г. С. Ганченко, Е. Н. Калайдин</span>
-              </div>
-              <div class="research__block">
-                <span class="research__span research__span-colored">Опубликовано:</span>
-                <span class="research__span">Американский Институт Физики</span>
-              </div>
-              <div class="research__block">
-                <span class="research__span research__span-colored">Дата:</span>
-                <span class="research__span">24.08.2018</span>
-              </div>
-
-              <div class="research__block">
-                <span class="research__span research__span-colored">Постановка:</span>
-                <p class="research__parag">
-                  Гидродинамика и электростатика несовершенных электрических мембран исследованы численно. Исследование основано на системе уравнений Нернста – Планка – Пуассона – Стокса. Рассматривается трехслойная геометрия электролит-нанопористая мембрана-электролит. Исследован порог электрокинетической неустойчивости одномерного состояния покоя и соответствующее изменение режима тока на сверхлимитный. Карта бифуркаций, переходов и режимов строится в координатах селективности, приложенной разности потенциалов и числа Дебая.
+            <div class="container">
+              <div class="slide__content">
+                <p class="slide__parag">
+                  Каждая задача, которую я решал становилась правилом, служившим для решения других задач.
                 </p>
-              </div>
+                <span class="slide__author">Рене Декарт</span>
 
-              <div class="research__links">
-                <a href="#" class="research__link action-button">Перейти к статье</a>
-                <a href="#" class="research__link action-button">Перейти к источнику</a>
+                <div class="slide__background"></div>
               </div>
-
             </div>
+
           </div>
 
+
+          <div class="glide__slide slider__slide">
+            <img class="slide__img" src="./img/img1.png" alt="img">
+
+            <div class="container">
+              <div class="slide__content">
+                <p class="slide__parag">
+                  Каждая задача, которую я решал становилась правилом, служившим для решения других задач.
+                </p>
+                <span class="slide__author">Рене Декарт</span>
+
+                <div class="slide__background"></div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="=0"></button>
+          <button class="glide__bullet" data-glide-dir="=1"></button>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- about -->
+  <section class="section about">
+    <div class="container">
+      <h3 class="section__title">Чем мы занимаемся?</h3>
+      <p class="section__parag">
+        Такой текст также называется как заполнитель. Это очень удобный инструмент для моделей (макетов). Он помогает
+        выделить визуальные элементы в документе или презентации, например текст, шрифт или разметка. Lorem ipsum по
+        большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были
+        заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это
+        не гениально, не правильно, используется даже не понятный латинский.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Researches -->
+  <section class="section research">
+    <div class="container">
+      <h3 class="section__title">Исследования</h3>
+      <p class="section__parag">
+        Lorem ipsum по большей части является элементом латинского текста классического автора и философа Цицерона.
+        Слова и буквы были заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться
+        передать содержание; это не гениально, не правильно, используется даже не понятный латинский.
+      </p>
+
+      <div class="research__content">
+
+        <div class="research__card box-shadow">
+
+          <div class="research__left">
+            <img class="research__img" src="./img/img.png" alt="">
+          </div>
+
+          <div class="research__right">
+            <h4 class="research__title">Переход к электрокинетической нестабильности вблизи несовершенных
+              зарядоселективных мембран</h4>
+
+            <div class="research__block">
+              <span class="research__span research__span-colored">Авторы:</span>
+              <span class="research__span">Е. А. Демехин, Г. С. Ганченко, Е. Н. Калайдин</span>
+            </div>
+            <div class="research__block">
+              <span class="research__span research__span-colored">Опубликовано:</span>
+              <span class="research__span">Американский Институт Физики</span>
+            </div>
+            <div class="research__block">
+              <span class="research__span research__span-colored">Дата:</span>
+              <span class="research__span">24.08.2018</span>
+            </div>
+
+            <div class="research__block">
+              <span class="research__span research__span-colored">Постановка:</span>
+              <p class="research__parag">
+                Гидродинамика и электростатика несовершенных электрических мембран исследованы численно. Исследование
+                основано на системе уравнений Нернста – Планка – Пуассона – Стокса. Рассматривается трехслойная
+                геометрия электролит-нанопористая мембрана-электролит. Исследован порог электрокинетической
+                неустойчивости одномерного состояния покоя и соответствующее изменение режима тока на сверхлимитный.
+                Карта бифуркаций, переходов и режимов строится в координатах селективности, приложенной разности
+                потенциалов и числа Дебая.
+              </p>
+            </div>
+
+            <div class="research__links">
+              <a href="#" class="research__link action-button">Перейти к статье</a>
+              <a href="#" class="research__link action-button">Перейти к источнику</a>
+            </div>
+
+          </div>
         </div>
 
-        <div class="research__bottom">
-          <a href="#" class="main-button">
-            Посмотреть все
-          </a>
+        
+        <div class="research__card box-shadow">
+
+          <div class="research__left">
+            <img class="research__img" src="./img/img.png" alt="">
+          </div>
+
+          <div class="research__right">
+            <h4 class="research__title">Переход к электрокинетической нестабильности вблизи несовершенных
+              зарядоселективных мембран</h4>
+
+            <div class="research__block">
+              <span class="research__span research__span-colored">Авторы:</span>
+              <span class="research__span">Е. А. Демехин, Г. С. Ганченко, Е. Н. Калайдин</span>
+            </div>
+            <div class="research__block">
+              <span class="research__span research__span-colored">Опубликовано:</span>
+              <span class="research__span">Американский Институт Физики</span>
+            </div>
+            <div class="research__block">
+              <span class="research__span research__span-colored">Дата:</span>
+              <span class="research__span">24.08.2018</span>
+            </div>
+
+            <div class="research__block">
+              <span class="research__span research__span-colored">Постановка:</span>
+              <p class="research__parag">
+                Гидродинамика и электростатика несовершенных электрических мембран исследованы численно. Исследование
+                основано на системе уравнений Нернста – Планка – Пуассона – Стокса. Рассматривается трехслойная
+                геометрия электролит-нанопористая мембрана-электролит. Исследован порог электрокинетической
+                неустойчивости одномерного состояния покоя и соответствующее изменение режима тока на сверхлимитный.
+                Карта бифуркаций, переходов и режимов строится в координатах селективности, приложенной разности
+                потенциалов и числа Дебая.
+              </p>
+            </div>
+
+            <div class="research__links">
+              <a href="#" class="research__link action-button">Перейти к статье</a>
+              <a href="#" class="research__link action-button">Перейти к источнику</a>
+            </div>
+
+          </div>
         </div>
 
       </div>
-    </section>
+
+      <div class="research__bottom">
+        <a href="#" class="main-button">
+          Посмотреть все
+        </a>
+      </div>
+
+    </div>
+  </section>
 
 
-    <!-- contributors -->
-    <section class="section contributors">
-      <div class="container">
-        <h3 class="section__title">Участники проекта</h3>
+  <!-- Lections -->
+  <section class="section lection">
+    <div class="container">
+      <h3 class="section__title">Лекции</h3>
+      <p class="section__parag">
+        Lorem ipsum по
+        большей части является элементом латинского текста классического автора и философа Цицерона. Слова и буквы были
+        заменены добавлением или сокращением элементов, поэтому будет совсем неразумно пытаться передать содержание; это
+        не гениально, не правильно, используется даже не понятный латинский.
+      </p>
 
-        <div class="contributors__content">
-          
-          <div class="contributors__member">
-            <div class="contributors__member-content">
-              <h5 class="contributors__member-name">Имя Фамилия Отчество</h5>
-              <span class="contributors__member-position">Руководитель</span>
-            </div>
-            <img class="contributors__member-img" src="./img/img.png" alt="#">
+      <div class="lection__content">
+
+        <div class="lection__card box-shadow">
+        
+          <h4 class="lection__title">
+            Лекция №2 | Основы линейной алгебры и математического анализа
+          </h4>
+
+          <div class="lection__block">
+            <span class="lection__span lection__span-colored">Дата публикации:</span>
+            <span class="lection__span">07.05.2020</span>
+          </div>
+
+          <div class="lection__block">
+            <span class="lection__span lection__span-colored">Краткая информация:</span>
+            <p class="lection__parag">
+              Внедрение современных методик выявляет срочную потребность вывода текущих активов. Значимость этих проблем настолько очевидна, что консультация с широким активом играет определяющее значение для поэтапного и последовательного развития общества. Есть над чем задуматься: тщательные исследования конкурентов ограничены исключительно образом мышления. В целом, конечно, экономическая повестка сегодняшнего дня напрямую зависит от экономической целесообразности принимаемых решений.
+            </p>
           </div>
         
+          <div class="lection__links">
+            <a href="#" class="lection__link action-button">Перейти к статье</a>
+            <a href="#" class="lection__link action-button">Перейти к источнику</a>
+          </div>
+
         </div>
+
+        <div class="lection__card box-shadow">
+        
+          <h4 class="lection__title">
+            Лекция №2 | Основы линейной алгебры и математического анализа
+          </h4>
+
+          <div class="lection__block">
+            <span class="lection__span lection__span-colored">Дата публикации:</span>
+            <span class="lection__span">07.05.2020</span>
+          </div>
+
+          <div class="lection__block">
+            <span class="lection__span lection__span-colored">Краткая информация:</span>
+            <p class="lection__parag">
+              Внедрение современных методик выявляет срочную потребность вывода текущих активов. Значимость этих проблем настолько очевидна, что консультация с широким активом играет определяющее значение для поэтапного и последовательного развития общества. Есть над чем задуматься: тщательные исследования конкурентов ограничены исключительно образом мышления. В целом, конечно, экономическая повестка сегодняшнего дня напрямую зависит от экономической целесообразности принимаемых решений.
+            </p>
+          </div>
+        
+          <div class="lection__links">
+            <a href="#" class="lection__link action-button">Перейти к статье</a>
+            <a href="#" class="lection__link action-button">Перейти к источнику</a>
+          </div>
+
+        </div>
+
+        <div class="lection__card box-shadow">
+        
+          <h4 class="lection__title">
+            Лекция №2 | Основы линейной алгебры и математического анализа
+          </h4>
+
+          <div class="lection__block">
+            <span class="lection__span lection__span-colored">Дата публикации:</span>
+            <span class="lection__span">07.05.2020</span>
+          </div>
+
+          <div class="lection__block">
+            <span class="lection__span lection__span-colored">Краткая информация:</span>
+            <p class="lection__parag">
+              Внедрение современных методик выявляет срочную потребность вывода текущих активов. Значимость этих проблем настолько очевидна, что консультация с широким активом играет определяющее значение для поэтапного и последовательного развития общества. Есть над чем задуматься: тщательные исследования конкурентов ограничены исключительно образом мышления. В целом, конечно, экономическая повестка сегодняшнего дня напрямую зависит от экономической целесообразности принимаемых решений.
+            </p>
+          </div>
+        
+          <div class="lection__links">
+            <a href="#" class="lection__link action-button">Перейти к статье</a>
+            <a href="#" class="lection__link action-button">Перейти к источнику</a>
+          </div>
+
+        </div>
+
+
       </div>
-    </section>
+
+    </div>
+  </section>
 
 
-    <!-- footer -->
-    
-	<footer class="section footer">
-		<div class="container">
-			<div class="footer__content">
+  <!-- contributors -->
+  <section class="section contributors">
+    <div class="container">
+      <h3 class="section__title">Участники проекта</h3>
 
-				<div class="footer__element">
+      <div class="contributors__content">
+
+        <div class="contributors__member">
+          <div class="contributors__member-content">
+            <h5 class="contributors__member-name">Имя Фамилия Отчество</h5>
+            <span class="contributors__member-position">Руководитель</span>
+          </div>
+          <img class="contributors__member-img" src="./img/img.png" alt="#">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer class="section footer">
+    <div class="container">
+      <div class="footer__content">
+
+        <div class="footer__element">
           <h3 class="footer__title">Инфо-блок</h3>
           <div class="footer__item">
             <span class="footer__text">Lorem ipsum lorem</span>
             <span class="footer__text">Lorem ipsum lorem</span>
           </div>
-				</div>
+        </div>
 
-				<div class="footer__element">
-					<h3 class="footer__title">Инфо-блок</h3>
-					<div class="footer__item">
+        <div class="footer__element">
+          <h3 class="footer__title">Инфо-блок</h3>
+          <div class="footer__item">
             <span class="footer__text">Lorem ipsum lorem</span>
             <span class="footer__text">Lorem ipsum lorem</span>
-					</div>
-				</div>
+          </div>
+        </div>
 
-				<div class="footer__element">
-					<h3 class="footer__title">Инфо-блок</h3>
-					<div class="footer__item">
+        <div class="footer__element">
+          <h3 class="footer__title">Инфо-блок</h3>
+          <div class="footer__item">
             <span class="footer__text">Lorem ipsum lorem</span>
             <span class="footer__text">Lorem ipsum lorem</span>
-					</div>
-				</div>
+          </div>
+        </div>
 
-			</div>
+      </div>
 
-			<div class="footer__rights">
-				<span class="footer__rights-span">Copyright © 2020. Все права защищены</span>
-			</div>
-		</div>
-	</footer>
+      <div class="footer__rights">
+        <span class="footer__rights-span">Copyright © 2020. Все права защищены</span>
+      </div>
+    </div>
+  </footer>
 
-    
-  
+
+
   <script src="./libs/glide-3.4.1/glide.min.js"></script>
   <script src="./js/index.js"></script>
 </body>
+
 </html>

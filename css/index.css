@@ -170,6 +170,7 @@
   width: 100%;
   max-width: 825px;
   min-height: 500px;
+  margin-bottom: 40px;
 }
 
 .research__left {
@@ -232,6 +233,64 @@
   text-align: center;
   margin-top: 60px;
 }
+
+
+/* lection */
+.lection__content {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.lection__card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  min-height: 450px;
+  max-width: 500px;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 0 15px 50px 15px;
+}
+
+.lection__title {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.lection__block {
+  margin-bottom: 15px;
+}
+
+.lection__span {
+  font-size: 14px;
+  color: var(--minor-text-color);
+}
+
+.lection__span-colored {
+  font-weight: 300;
+  color: var(--additional-color);
+}
+
+.lection__parag {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.lection__links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.lection__link:first-child {
+  margin-right: 10px;
+}
+
 
 
 /* contributors */
