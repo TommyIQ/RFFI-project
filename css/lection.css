@@ -111,3 +111,45 @@
 .main__button-text {
   font-size: 12px;
 }
+
+/* pagination */
+.pagination__controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pagination__item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.pagination__icon {
+  background: #000;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination__icon-prev {
+  margin-left: 15px;
+}
+
+.pagination__icon-next {
+  margin-right: 15px;
+}
+
+.pagination__chevron {
+  height: 14px;
+}
+
+.pagination__text {
+  font-size: 14px;
+}
