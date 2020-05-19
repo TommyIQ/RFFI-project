@@ -5,6 +5,14 @@ html, body {
   box-sizing: border-box;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 /* variables */
 :root {
   --link-color: #8D8D8D;
@@ -15,6 +23,9 @@ html, body {
   --additional-color: #3499DB;
   --minor-text-color: #747474;
   --footer-color: #0D0D0D;
+  --border-color: #878787;
+  --img-lection-color: #B23121;
+  --link-lection-color: #9A9A9A;
 }
 
 .container {
@@ -63,4 +74,23 @@ html, body {
   text-decoration: none;
   color: #fff;
   background: var(--additional-color);
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+
+@media screen and (max-width: 768px) {
+  
+}
+
+
+@media screen and (max-width: 576px) {
+      
+}
+
+
+@media screen and (max-width: 320px) {
+
 }

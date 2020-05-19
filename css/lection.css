@@ -1,0 +1,113 @@
+/* main */
+.main__content {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.main__title {
+  margin-bottom: 50px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700px;
+}
+
+/* .main__subtitle */
+.main__content h3 {
+  font-size: 20px;
+  margin: 40px 0 20px 0;
+}
+
+/* .main__parag  */
+.main__content p {
+  line-height: 165%;
+  margin: 20px 0;
+}
+
+.main__block {
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 55px auto;
+  max-width: 700px;
+  position: relative;
+  height: 400px;
+}
+
+.main__block-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main__additional {
+  margin-top: 50px;
+}
+
+.main__materials {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.main__button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 15px;
+  max-width: 250px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  margin-bottom: 20px;
+}
+
+.main__button:first-child {
+  margin-right: 25px;
+}
+
+.main__button-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  width: 100px;
+  height: 50px;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+
+.main__button-pdf {
+  background-color: var(--additional-color);
+}
+
+.main__button-img {
+  background-color: var(--img-lection-color);
+}
+
+.main__button-link {
+  background-color: var(--link-lection-color);
+}
+
+.main__button-type {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.main__button-line {
+  display: block;
+  width: 1px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.main__button-icon {
+  height: 19px;
+  position: relative;
+  z-index: 0;
+}
+
+.main__button-text {
+  font-size: 12px;
+}

@@ -129,21 +129,6 @@
 
 
 @media screen and (max-width: 576px) {
-  /* default */
-  .section__title {
-    font-size: 20px;
-  }
-
-  .section__parag {
-    font-size: 14px;
-  }
-
-  .main-button {
-    font-size: 14px;
-    padding: 12px 25px;
-  }
-
-
   /* slider */
   .slide__content {
     padding: 30px 20px;
