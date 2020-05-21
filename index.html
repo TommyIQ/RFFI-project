@@ -30,29 +30,29 @@
       <div class="header__content">
 
         <div class="header__left">
-          <span class="header__logo">Logo</span>
+          <a href="/index.html" class="header__logo">Logo</a>
         </div>
 
         <menu class="header__menu">
 
           <li class="header__menu-item">
-            <a href="#" class="header__menu-link">Главная</a>
+            <a href="/index.html" class="header__menu-link">Главная</a>
           </li>
 
           <li class="header__menu-item">
-            <a href="#" class="header__menu-link">О нас</a>
+            <a href="#about" class="header__menu-link">О нас</a>
           </li>
 
           <li class="header__menu-item">
-            <a href="#" class="header__menu-link">Исследования</a>
+            <a href="./archive.html" class="header__menu-link">Исследования</a>
           </li>
 
           <li class="header__menu-item">
-            <a href="#" class="header__menu-link">Лекции</a>
+            <a href="./archive.html" class="header__menu-link">Лекции</a>
           </li>
 
           <li class="header__menu-item">
-            <a href="#" class="header__menu-link">Команда</a>
+            <a href="#contributors" class="header__menu-link">Команда</a>
           </li>
 
         </menu>
@@ -126,7 +126,7 @@
 
 
   <!-- about -->
-  <section class="section about">
+  <section class="section about" id="about">
     <div class="container">
       <h3 class="section__title">Чем мы занимаемся?</h3>
       <p class="section__parag">
@@ -141,7 +141,7 @@
 
 
   <!-- Researches -->
-  <section class="section research">
+  <section class="section research" id="research">
     <div class="container">
       <h3 class="section__title">Исследования</h3>
       <p class="section__parag">
@@ -252,7 +252,7 @@
 
 
   <!-- Lections -->
-  <section class="section lection">
+  <section class="section lection" id="lection">
     <div class="container">
       <h3 class="section__title">Лекции</h3>
       <p class="section__parag">
@@ -283,8 +283,7 @@
           </div>
         
           <div class="lection__links">
-            <a href="#" class="lection__link action-button">Перейти к статье</a>
-            <a href="#" class="lection__link action-button">Перейти к источнику</a>
+            <a href="#" class="lection__link action-button">Перейти к материалам</a>
           </div>
 
         </div>
@@ -308,8 +307,7 @@
           </div>
         
           <div class="lection__links">
-            <a href="#" class="lection__link action-button">Перейти к статье</a>
-            <a href="#" class="lection__link action-button">Перейти к источнику</a>
+            <a href="#" class="lection__link action-button">Перейти к материалам</a>
           </div>
 
         </div>
@@ -333,13 +331,17 @@
           </div>
         
           <div class="lection__links">
-            <a href="#" class="lection__link action-button">Перейти к статье</a>
-            <a href="#" class="lection__link action-button">Перейти к источнику</a>
+            <a href="#" class="lection__link action-button">Перейти к материалам</a>
           </div>
 
         </div>
 
+      </div>
 
+      <div class="lection__btn">
+        <a href="#" class="main-button">
+          Посмотреть все
+        </a>
       </div>
 
     </div>
@@ -347,7 +349,7 @@
 
 
   <!-- contributors -->
-  <section class="section contributors">
+  <section class="section contributors" id="contributors">
     <div class="container">
       <h3 class="section__title">Участники проекта</h3>
 
@@ -361,13 +363,31 @@
           <img class="contributors__member-img" src="./img/img.png" alt="#">
         </div>
 
+        
+        <div class="contributors__member">
+          <div class="contributors__member-content">
+            <h5 class="contributors__member-name">Имя Фамилия Отчество</h5>
+            <span class="contributors__member-position">Руководитель</span>
+          </div>
+          <img class="contributors__member-img" src="./img/img.png" alt="#">
+        </div>
+
+        <div class="contributors__member">
+          <div class="contributors__member-content">
+            <h5 class="contributors__member-name">Имя Фамилия Отчество</h5>
+            <span class="contributors__member-position">Руководитель</span>
+          </div>
+          <img class="contributors__member-img" src="./img/img.png" alt="#">
+        </div>
+
       </div>
+
     </div>
   </section>
 
 
   <!-- footer -->
-  <footer class="section footer">
+  <footer class="section footer" id="footer">
     <div class="container">
       <div class="footer__content">
 

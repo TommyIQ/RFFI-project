@@ -7,6 +7,17 @@
   .research__right {
     flex-basis: 625px;
   }
+
+  /* lection */
+  .lection__content {
+    grid-template-columns: 1fr;
+  }
+
+  /* contributors */
+  .contributors__content {
+    grid-template-columns: repeat(2, 270px);
+  }
+
 }
 
 
@@ -44,9 +55,8 @@
   }
 
   .header__burger {
-    display: flex;
+    display: block;
     position: relative;
-    justify-content: center;
     z-index: 2;
   }
 
@@ -64,16 +74,18 @@
   }
 
   .header__burger-elem-active:nth-child(1) {
-    margin-top: -4px;
     transform: rotate(225deg);
+    top: 50%;
   }
 
   .header__burger-elem-active:nth-child(2) {
     opacity: 0;
+    top: 50%;
   }
 
   .header__burger-elem-active:nth-child(3) {
     transform: rotate(-225deg);
+    top: 50%;
   }
 
   /* slider */
@@ -125,6 +137,12 @@
   .footer__rights-span {
     font-size: 12px;
   }
+
+  /* contributors */
+  .contributors__content {
+    grid-template-columns: repeat(1, 270px);
+  }
+  
 }
 
 
