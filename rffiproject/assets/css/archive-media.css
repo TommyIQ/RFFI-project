@@ -1,0 +1,30 @@
+@media screen and (max-width: 576px) {
+  /* archive */
+  .archive__preview {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .archive__title {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .archive__lection-btn:first-of-type {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  /* archive__research classes */
+  .archive__research-buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .archive__research-btn:first-of-type {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}

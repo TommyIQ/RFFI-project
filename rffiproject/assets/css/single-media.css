@@ -1,0 +1,11 @@
+@media screen and (max-width: 576px) {
+  /* main */
+  .main__button:first-child {
+    margin-right: 0;
+  }
+
+  /* pagination */
+  .pagination__text {
+    display: none;
+  }
+}
